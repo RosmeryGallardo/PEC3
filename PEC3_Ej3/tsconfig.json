@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es2015", 
+    /*Determina la versión de JS que se quiere generar, en este caso se compilará en versión compatible con ES6*/
+    "module": "commonjs", 
+      /*Define el sistema de módulos que se usará en el JS compilado, commonjs es el sistema usado por Node.js*/
+    "outDir": "./dist",   
+      /*Donde se guardan los archivos JS generados despues de compilar*/
+    "rootDir": "./src", 
+      /*Carpeta donde están los archivos TS originales*/
+    "strict": true,
+      /*Activa todas las comprobaciones estrictas de tipos TS*/
+    "incremental": true,
+     /*Permite que la compilación sea rápida. Guarda info de compilaciones anteriores y recopila lo que ha cambiado*/
+    "tsBuildInfoFile": "./buildcache",
+     /*Especifica que la info de compilación incremental se guardará en Buildcache*/
+
+  }
+}
