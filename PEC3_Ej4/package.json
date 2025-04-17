@@ -1,0 +1,26 @@
+{
+  "name": "pec3",
+  "version": "1.0.0",
+  "description": "Login UOC: rcedenog\r Nombre y apellidos del alumno: Rosmery Cedeño Gallardo\r PEC 2:\r En esta práctica se implementaron funciones en JavaScript para trabajar con arrays y matrices.\r Tuve problemas asegurando que los tipos de datos en los arrays fueran consistentes.\r Hubo problemas al inicializar y organizar correctamente las pruebas, ya que algunas funciones fallaban en casos específicos, como cuando los arrays estaban vacíos o contenían elementos inesperados.\r Se optimizó la organización de los tests para hacer más fácil su ejecución y depuración.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development",
+    "dev": "webpack --mode development"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.99.5",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1",
+    "ts-loader": "^9.5.2",
+    "file-loader": "^6.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
