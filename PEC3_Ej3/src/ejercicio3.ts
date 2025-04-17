@@ -13,7 +13,7 @@ class Dog extends Animal {
     color: string;
 
     constructor (color: string){
-        super();//llama a Animal
+        super();
         this.color =color;
     }
     public sound(): void {
@@ -66,5 +66,4 @@ yes, this is a cat
 WOW
 yes, this is a dog
 */
-
 console.log(Animal.population); //4
